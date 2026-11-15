@@ -1,6 +1,6 @@
 # Builds the 3D isometric contribution chart (with radar + language charts) using
-# yoshi389111/github-profile-3d-contrib and the brass theme in config/3d-contrib-brass.json.
-# Output: profile-3d-contrib/profile-brass.svg (committed back to this repo).
+# yoshi389111/github-profile-3d-contrib with GitHub light + dark themes from config/3d-contrib.json.
+# Output: profile-3d-contrib/profile-dark.svg and profile-light.svg (committed back to this repo).
 name: Generate 3D contribution chart
 
 on:
@@ -26,7 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: config/3d-contrib-brass.json
+          SETTING_JSON: config/3d-contrib.json
 
       - name: Commit & push the chart
         run: |
