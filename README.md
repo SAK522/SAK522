@@ -11,11 +11,11 @@ I'm a backend developer and 2026 Computer Science graduate. I design and build R
 ### Featured work
 
 **[Document Q&A API (RAG)](https://github.com/SAK522/document-qa-api)** · [Live demo](https://document-qa-api-jhim.onrender.com)  
-Upload a PDF, ask questions in plain English, and get answers grounded in the document with page citations. It refuses when the document doesn't contain the answer, using a two-stage guard, and works with any OpenAI-compatible LLM. 60 automated tests.  
+Upload a PDF, ask questions in plain English, and get answers grounded in the document with page citations. It refuses when the document doesn't contain the answer, using a two-stage guard, and works with any OpenAI-compatible LLM. 62 automated tests.  
 `FastAPI` `RAG` `PostgreSQL` `NumPy` `pytest`
 
-**[Expense Tracker REST API](https://github.com/SAK522/expense-tracker-api)** · [Live demo](https://expense-tracker-api-9rcd.onrender.com/docs)  
-A secured personal-finance API: JWT login, per-user data isolation, filtering by month, category and type, and period summaries computed in SQL. 10 endpoints, 25 automated tests.  
+**[Expense Tracker REST API](https://github.com/SAK522/expense-tracker-api)** · [Live demo](https://expense-tracker-api-9rcd.onrender.com)  
+A secured personal-finance API: JWT login, per-user data isolation, filtering by month, category and type, and period summaries computed in SQL. 10 endpoints, 26 automated tests, and a web dashboard.  
 `FastAPI` `PostgreSQL` `SQLAlchemy` `pytest`
 
 **Smart Agriculture Decision Support System**  
