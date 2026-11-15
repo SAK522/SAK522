@@ -6,15 +6,15 @@
 
 I'm a backend developer and 2026 Computer Science graduate. I design and build REST APIs in Python, covering authentication, relational data modelling and automated tests, and I'm looking for a full-time backend role.
 
-**Currently:** deploying both APIs below with live demos, and deepening my work on retrieval-augmented generation (RAG).
+**Both projects below are live:** open the interactive docs and try them in your browser. Next up: semantic embeddings and an LLM for the Document Q&A API.
 
 ### Featured work
 
-**[Document Q&A API (RAG)](https://github.com/SAK522/document-qa-api)**  
+**[Document Q&A API (RAG)](https://github.com/SAK522/document-qa-api)** · [Live demo](https://document-qa-api-jhim.onrender.com)  
 Upload a PDF, ask questions in plain English, and get answers grounded in the document with page citations. It refuses when the document doesn't contain the answer, using a two-stage guard, and works with any OpenAI-compatible LLM. 60 automated tests.  
 `FastAPI` `RAG` `PostgreSQL` `NumPy` `pytest`
 
-**[Expense Tracker REST API](https://github.com/SAK522/expense-tracker-api)**  
+**[Expense Tracker REST API](https://github.com/SAK522/expense-tracker-api)** · [Live demo](https://expense-tracker-api-9rcd.onrender.com/docs)  
 A secured personal-finance API: JWT login, per-user data isolation, filtering by month, category and type, and period summaries computed in SQL. 10 endpoints, 25 automated tests.  
 `FastAPI` `PostgreSQL` `SQLAlchemy` `pytest`
 
@@ -47,3 +47,5 @@ Developed and tested RESTful APIs with Django and Flask, connected them to relat
 ### Contact
 
 Open to backend developer roles. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/t-sakthi-2b312b357).
+
+<sub>Live demos run on a free tier, so the first request can take up to a minute while the server wakes up.</sub>
