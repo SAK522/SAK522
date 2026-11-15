@@ -6,9 +6,13 @@
 
 I'm a backend developer and 2026 Computer Science graduate. I design and build REST APIs in Python, covering authentication, relational data modelling and automated tests, and I'm looking for a full-time backend role.
 
-**Currently building:** a Document Q&A API that answers questions about an uploaded PDF using retrieval-augmented generation (RAG), and cites the passage each answer comes from.
+**Currently:** deploying both APIs below with live demos, and deepening my work on retrieval-augmented generation (RAG).
 
 ### Featured work
+
+**[Document Q&A API (RAG)](https://github.com/SAK522/document-qa-api)**  
+Upload a PDF, ask questions in plain English, and get answers grounded in the document with page citations. It refuses when the document doesn't contain the answer, using a two-stage guard, and works with any OpenAI-compatible LLM. 55 automated tests.  
+`FastAPI` `RAG` `PostgreSQL` `NumPy` `pytest`
 
 **[Expense Tracker REST API](https://github.com/SAK522/expense-tracker-api)**  
 A secured personal-finance API: JWT login, per-user data isolation, filtering by month, category and type, and period summaries computed in SQL. 10 endpoints, 20 automated tests.  
